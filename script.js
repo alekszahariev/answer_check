@@ -514,7 +514,7 @@ function ardjikov(){
     <h1 style="color: red;">Случай: Арджиков</h1>
     <input type="text" id="firstword" placeholder="Парола за телефона" class="form-control my-3">
     <input type="text" id="secondword" placeholder="Парола на емайла на Арджиков" class="form-control my-3">
-    <input type="text" id="thirdword" placeholder="Парола за фейсбук" class="form-control my-3">
+    <input type="text" id="thirdword" placeholder="Ип на убиеца." class="form-control my-3">
     <button style="margin:auto;display:block;" class="btn btn-success checkanswer">Напред</button>
     `
 
@@ -534,7 +534,7 @@ function ardjikov(){
         if(secondword === "ardjikov777"){
             secondcheck = true
         }
-        if(thirdword==="ivanelena1979"){
+        if(thirdword==="210.67.90.123"){
             thirdcheck = true
         }
 
@@ -586,7 +586,7 @@ function ardjikov(){
 
 
     function correctAnswer(){
-        form.innerHTML = `<h1 style="color:red;">Това е правилен отговор</h1><br> <p style="color:white">
+        form.innerHTML = `<h1 style="color:red;">Йоанна е закупила билките от картата на майка си. След това е отровила Арджиков,защото е разбрала, че сестра ѝ е била принудена от Арджиков да има взаимоотношения с него. (по-подробно обяснение ще има скоро</h1><br> <p style="color:white">
            
 Успешно намери убиеца!
 

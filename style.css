@@ -1,0 +1,70 @@
+@import url('https://fonts.cdnfonts.com/css/impact');
+
+*{
+    font-family: 'Impact', sans-serif;
+font-family: 'Impacted', sans-serif;
+}
+body{
+    background: black;
+}
+.mobile{
+    background-image: url("./assets/background.png");
+    background-size: cover;
+}
+
+.mobile{
+    display: block;
+    max-width: 390px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    width: 50%;
+}
+input{
+    width: 100%!important;
+}
+
+
+.suspects{
+    display: block;
+}
+.suspects img{
+    max-width: 150px;
+    margin: 20px;
+    display: inline-block;
+    border: 1px dashed red;
+    cursor: pointer;
+}
+.suspects h1{
+    font-size: 50px;
+}
+
+.option{
+    text-align: center;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px dashed red;
+    margin: 10px;
+    padding: 10px;
+}
+.chosen{
+    background: greenyellow;
+}
+
+.result{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 10px;
+
+}
+.result p{
+    color: white;
+}
